@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Quattrocento:wght@700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    transition: color 0.5s ease;
+}
+
+body{
+    display: grid;
+    background-color: grey;
+    color: white;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 4rem;
+    padding: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    color: #ffff00;
+}
+
+header{
+    grid-area: 1 / 1 / 2 / 2;
+    text-align: right;
+}
+
+main {
+    grid-area: 1 / 2 / 2 / 5;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3rem;
+}
+
+main article{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+h1, h2{
+    font-family: 'Quattrocento', serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+
+main h2{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    margin: 1rem 0;
+
+}
+
+main a{
+    text-decoration: none;
+}
+
+main h2:hover{
+    color: #ffff00;
+}
+
+.bajada{
+    font-style: italic;
+}
+nav{
+    padding: 2rem 0;
+}
+
+nav a{
+    color: #ccc;
+    transition: color 0.5s ease;
+}
+
+nav a:hover{
+    color: #ffff00;
+}
+
+nav ul{
+    padding: 0 0 0 1rem;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav .about{
+    margin-top: 1rem;
+}
+
+nav .home{
+    margin-bottom: 1rem;
+}
+
+article img{
+    max-width: 100%;
+}

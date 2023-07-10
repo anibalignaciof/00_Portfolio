@@ -34,6 +34,23 @@ main {
     column-gap: 3rem;
 }
 
+#about main article{
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+#about main figure{
+    grid-area: 1 / 3 / 2 / 4;
+    max-width: 100%;
+}
+
+#about main figure img{
+    max-width: 100%;
+}
+
+main h3{
+    margin: 2rem 0;
+}
+
 main article{
     width: 100%;
     margin-bottom: 1rem;
